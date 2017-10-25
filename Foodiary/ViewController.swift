@@ -206,7 +206,7 @@ extension ViewController: UIImagePickerControllerDelegate{ func imagePickerContr
     }
     // This is the action sheet that runs after the model has finished guessing what the food/object is. It asks the user if the food/object guess was correct
     func actionSheet() {
-        let actionSheet = UIAlertController(title: "Foodiary though you took a photo of a(n) \(classifier.text!). Was it correct?", message: nil, preferredStyle: .actionSheet)
+        let actionSheet = UIAlertController(title: "Foodiary thought you took a photo of a(n) \(classifier.text!). Was it correct?", message: nil, preferredStyle: .actionSheet)
         
         // If the user says the model's guess was correct it runs the saveFood function(adding an event to the Apple Calendar). It then takes the user to the Apple Calendar application
         let yes = UIAlertAction(title: "Yes", style: .default) { action in
