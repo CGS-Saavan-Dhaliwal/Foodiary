@@ -44,7 +44,7 @@ class HomeController: UIViewController {
         performSegue(withIdentifier: "cameraSegue", sender: nil)
     }
     
-    // If the user clicks this button theu will be taken to the Info page
+    // If the user clicks this button they will be taken to the Info page
     @IBAction func infoButtonAction(_ sender: Any) {
         performSegue(withIdentifier: "homeToInfoSegue", sender: nil)
     }
